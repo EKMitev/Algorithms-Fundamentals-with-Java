@@ -3,8 +3,12 @@ package RecursionAndBacktracking;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class RecursiveArraySum {
+/**
+ * <p>1. Recursive Array Sum </p>
+ * Write a program that finds the sum of all elements in an integer array. Use recursion.
+ */
 
+public class RecursiveArraySum {
     public static void main(String[] args) {
 
         int[] arr = Arrays.stream(new Scanner(System.in).nextLine()
